@@ -135,11 +135,13 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 
 <!-- ROADMAP -->
 ## Roadmap
+What I want to achieve this week:
+Plan the submission feature by designing its structure and preparing database support.
 
-- [ ] Feature 1
-- [ ] Feature 2
-- [ ] Feature 3
-    - [ ] Nested Feature
+The steps I will take to make that happen:
+- [ ] Sketch the "Report Lost Item" screen layout on paper or digitally  
+- [ ] Write a list of fields needed for reporting an item (e.g. name, date, location) 
+- [ ] Create a basic SQLite table with those fields using Python  
 
 As you develop your roadmap, add new features here and to [open issues](https://github.com/github_username/repo_name/issues)
 
