@@ -1,0 +1,196 @@
+#root {
+  max-width: 1280px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 1rem;
+  text-align: center;
+}
+
+.logo {
+  will-change: filter;
+  transition: filter 300ms;
+}
+
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+}
+
+.logo-red {
+  font-weight: 900;
+  color: #FF0000;
+}
+
+.logo-black {
+  font-weight: 900;
+}
+
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+.sidenavs {
+  position: sticky;
+  top: 20px;
+}
+
+.sidenav {
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.sidenav-title {
+  border-bottom: 1px solid #000;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.sidenav-content-element {
+  display: flex;
+  align-content: center;
+  justify-content: start;
+}
+
+.sidenav-content-element label {
+  display: inline-block;
+  padding-right: 10px;
+  white-space: nowrap;
+}
+
+.sidenav-content-element input[type='checkbox'] {
+  vertical-align: text-bottom;
+  margin-right: 10px;
+}
+
+.sidenav-content-element label span {
+  vertical-align: middle;
+}
+
+.card-col {
+  margin-bottom: 20px;
+}
+
+.card {
+  height: 100%;
+  justify-content: space-between;
+}
+
+.card img {
+  margin-top: 20px;
+}
+
+.card-content {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+}
+
+.card-body {
+  padding: 1em;
+  text-align: left;
+}
+
+.take-back-button {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+.page-title {
+  margin: 20px;
+}
+
+.form-element-title {
+  width: fit-content;
+  padding: 20px;
+  border-bottom: 1px #000 solid;
+  padding-bottom: 0;
+  margin-bottom: 10px;
+}
+
+.no-border {
+  border: none !important;
+}
+
+.category-card {
+  padding: 0;
+  padding-top: 10px;
+}
+
+.category-card input[type='checkbox'] {
+  vertical-align: middle;
+  margin-left: 10px;
+}
+
+.category-card-body {
+  margin: auto;
+}
+
+.login-form {
+  width: 500px;
+  margin: auto;
+}
+
+.login-form .row {
+  margin-bottom: 10px;
+}
+
+.item-action-div a {
+  cursor: pointer;
+}
+
+.item-action-div a:hover {
+  color: #888 !important;
+}
+
+.bordered {
+  border: 1px #000 solid;
+  padding: 5px 25px;
+  font-size: 30px;
+}
+
+.upload-photo {
+  cursor: pointer;
+  transition: box-shadow 0.5s;
+}
+
+.upload-photo:hover {
+  box-shadow: #00000080 0 0 10px
+}
+
+.btn-photo {
+  padding: 0 !important;
+}
+
+.btn-photo:hover {
+  box-shadow: none !important;
+}

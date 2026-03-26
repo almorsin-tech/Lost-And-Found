@@ -1,0 +1,14 @@
+.navbar-content {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.navbar-content input {
+    width: 250px;
+    padding: 0px 15px;
+}
+
+.navbar-content button {
+
+}

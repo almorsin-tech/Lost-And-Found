@@ -1,0 +1,31 @@
+aiofiles==25.1.0
+annotated-doc==0.0.4
+annotated-types==0.7.0
+anyio==4.12.0
+APScheduler==3.11.2
+certifi==2024.2.2
+charset-normalizer==3.3.2
+click==8.3.1
+fastapi==0.127.0
+h11==0.16.0
+httptools==0.7.1
+idna==3.7
+pydantic==2.12.5
+pydantic_core==2.41.5
+python-dotenv==1.2.1
+python-multipart==0.0.22
+PyYAML==6.0.3
+requests==2.31.0
+SQLAlchemy==2.0.45
+starlette==0.50.0
+typing-inspection==0.4.2
+typing_extensions==4.15.0
+tzlocal==5.3.1
+urllib3==2.2.1
+uvicorn==0.40.0
+uvloop==0.22.1
+watchfiles==1.1.1
+websockets==16.0
+wheel @ file:///opt/homebrew/Cellar/python%403.12/3.12.3/libexec/wheel-0.43.0-py3-none-any.whl#sha256=80a49545e5e5ef2abeb79ec254447300d41dfb76914fc65efa6da8dd0a766052
+pip install -r requirements.txt
+
